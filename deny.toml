@@ -92,8 +92,8 @@ version = "0.6"
 name = "rustls-pemfile"
 version = "0.2"
 
-[[bans.skip]]
+#[[bans.skip]]
 # waiting for ahash/getrandom to bump wasi as we have two branches:
 # ahash -> getrandom -> wasi old
 # tokio -> mio -> wasi new
-name = "wasi"
+#name = "wasi"
